@@ -300,7 +300,9 @@ class SentenceGenerator {
   }
 }
 
-function englishLorem(size) {
+function sensiLorem(size) {
   const generator = new SentenceGenerator();
   return generator.generateSentences(size);
 }
+
+module.exports = sensiLorem;
