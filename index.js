@@ -241,6 +241,15 @@ class SentenceGenerator {
 
   // Method to generate sentences
   generateSentences(size) {
+    if (typeof size !== "number") {
+      throw new TypeError("Number of words should be a number.");
+    }
+
+    if (size < 1) {
+      throw new RangeError("Number of words should be positive.");
+    }
+
+    size = parseInt(size);
     let sentences = [];
     let totalWords = 0;
 
@@ -291,5 +300,7 @@ class SentenceGenerator {
   }
 }
 
-const generator = new SentenceGenerator();
-console.log(generator.generateSentences(100));
+function englishLorem(size) {
+  const generator = new SentenceGenerator();
+  return generator.generateSentences(size);
+}
