@@ -46,8 +46,6 @@ Utilizes various grammatical structures for richer text.
 
 Words are chosen to create more meaningful combinations.
 
-### Example
-
 ### Realistic Sentences:
 
 Generates sentences with real English words, making them suitable for placeholder text.
