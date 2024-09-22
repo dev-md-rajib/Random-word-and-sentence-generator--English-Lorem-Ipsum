@@ -31,5 +31,9 @@
   "homepage": "https://github.com/dev-md-rajib/sensiLorem-English-sentence-generator#readme",
   "dependencies": {
     "sensible-lorem": "^1.0.0"
-  }
+  },
+  "files": [
+    "README.md",
+    "index.js"
+  ]
 }
