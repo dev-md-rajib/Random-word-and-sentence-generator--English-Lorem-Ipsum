@@ -1,6 +1,6 @@
 {
   "name": "sensible-lorem",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate nearly meaningful English sentence strings using real words.",
   "main": "index.js",
   "scripts": {
