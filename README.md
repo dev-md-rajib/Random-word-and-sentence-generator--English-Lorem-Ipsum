@@ -16,10 +16,6 @@ To use the package in your project, require it and call the function with the de
 
 (The argument of sensiLorem function specifies the number of words the generated string will contain)
 
-To use the package in your project, require it and call the function with the desired word count:
-
-(The argument of sensiLorem function specifies the number of words the generated string will contain)
-
 ```
 const sensiLorem = require("sensible-lorem");
 
@@ -29,22 +25,6 @@ sensiLorem(10);
 This will output a string of approximately 10 words that form coherent sentences.
 
 ## Features
-
-### Realistic Sentences:
-
-Generates sentences with real English words, making them suitable for placeholder text.
-
-### Custom Word Counts:
-
-Specify the number of words you want in the output.
-
-### Diverse Sentence Structures:
-
-Utilizes various grammatical structures for richer text.
-
-### Contextual Word Matching:
-
-Words are chosen to create more meaningful combinations.
 
 ### Realistic Sentences:
 
